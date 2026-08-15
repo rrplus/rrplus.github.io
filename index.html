@@ -16,7 +16,7 @@
    noscript{text-align: center; font-family: sans-serif; background-color: red; border-radius: 42px; display: block;}
    footer{text-align: center; gap: 2px; font-family: sans-serif; font-size: 20px;}
    .divider{color: #ff6738}
-   .aap{text-align: center; font-family: center; font-family: sans-serif;}
+   .aap{text-align: center; font-family: center; font-family: sans-serif; display: none;}
    .rrplus2{font-size: 42px; color: orange; font-family: sans-serif;}
     </style>
   </head>
@@ -44,6 +44,7 @@
     <script>
         document.getElementById("aap").style.display = "none";
         document.getElementById("content").style.display = "block";
+        document.getElementById("aap").style.display = "none";
         function getrrplus(){
           document.getElementById("aap").style.display = "block";
           document.getElementById("content").style.display = "none";
