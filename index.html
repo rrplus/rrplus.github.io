@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>RR+</title>
     <style>
-    body{background-color: #FF6738; display: block;}
+    body{background-color: white; display: block;}
     .content{font-family: sans-serif; display: none;}
    .getrrplus{display: flex; gap: 5px; justify-content: center; font-size: 27px;}
    .rrplus{color: orange; font-family: sans-serif;} 
@@ -37,7 +37,7 @@
       <h3>All of this is fake</h3>
       <h3>RecRoom+ is no longer available this is made and hosted for fun</h3>
     </div>
-       <footer>Made by Qweetly all products including RecRoom+(RR+) belongs to RecRoom Inc.(Against Gravity)
+       <footer id = "footer">Made by Qweetly all products including RecRoom+(RR+) belongs to RecRoom Inc.(Against Gravity)
       Hosted on rrplus.qweetly.work.gd
     </footer>
     <noscript>Please Enable Javascript to run this application.</noscript>
@@ -45,6 +45,8 @@
         document.getElementById("aap").style.display = "none";
         document.getElementById("content").style.display = "block";
         document.getElementById("aap").style.display = "none";
+        document.getElementById("footer").style.display = "block";
+        document.getElementById("body").style.backgroundColor = "#FF6738";
         function getrrplus(){
           document.getElementById("aap").style.display = "block";
           document.getElementById("content").style.display = "none";
