@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <title>RR+</title>
+    <style>
+    body{background-color: #FF6738; display: none;}
+    .content{font-family: sans-serif;}
+   .getrrplus{display: flex; gap: 5px; justify-content: center; font-size: 27px;}
+   .rrplus{color: orange; font-family: sans-serif;} 
+   .currency1{color: green;}
+   .price1{color: green;}
+   .buybutton{background-color: orange; border-radius: 25px; border: 25px; height: 52px; width: 192px;
+   justify-content: center; align-items: center; margin: 0 auto; display: flex; font-size: 25px; font-family: sans-serif;}
+   .noscript{text-align: center; font-family: sans-serif; background-color: red; border-radius: 42px; display: block;}
+   footer{text-align: center; gap: 2px; font-family: sans-serif; font-size: 20px;}
+   .divider{color: #ff6738}
+   .aap{text-align: center; font-family: center; font-family: sans-serif;}
+   .rrplus2{font-size: 42px; color: orange; font-family: sans-serif;}
+    </style>
+  </head>
+  <body id="body">
+    <div class="content" id="content">
+      <div class="getrrplus">
+      <h2>Get </h2>
+      <h2 class="rrplus">RR+</h2>
+      <h2>Now for: </h2> 
+       <h2 class = "currency1">$</h2> <h2 class="price1">19.99</h2>
+    </div>
+    <button class = "buybutton" onclick="getrrplus()">Buy Now!</button>
+    <h2 class="divider">-------</h2>
+
+    </div>
+    <div class="aap" id="aap">
+      <h2 class="rrplus2">RR+</h2>
+      <h3>All of this is fake</h3>
+      <h3>RecRoom+ is no longer available this is made and hosted for fun</h3>
+    </div>
+       <footer>Made by Qweetly all products including RecRoom+(RR+) belongs to RecRoom Inc.(Against Gravity)
+      Hosted on rrplus.qweetly.work.gd
+    </footer>
+    <div class="noscript" id="noscript">
+      <h2>Please Enable Javascript to run this application</h2>
+    </div>
+    <script>
+        document.getElementById("aap").style.display = "none";
+        document.getElementById("noscript").style.display = "none";
+        document.getElementById("body").style.display = "block";
+        function getrrplus(){
+          document.getElementById("aap").style.display = "block";
+          document.getElementById("content").style.display = "none";
+        }
+    </script>
+  </body>
+</html>
